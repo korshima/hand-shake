@@ -1,4 +1,4 @@
-//A program which allows the movement of the robotic hand
+//A program which allows the movement of the robotic hand for a hand shake
 //By Korshima
 #include <Servo.h>      //Adds servo functions
 Servo myservo1;         //creates 3 servo objects for each major joint on the arm ( wrist, elbow and shoulder)
@@ -17,7 +17,8 @@ void setup() {
  
 }
 
-void loop() { //creates and starts our loop
+void loop() {      
+                
   
   for (pos1 = 0; pos1 <= 5; pos1 += 1) { // from 1 to 5 by 1 degree increments 
     
